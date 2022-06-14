@@ -7,7 +7,7 @@ importers:
       '@actions/core': ^1.8.2
       '@actions/exec': ^1.1.1
       '@actions/github': ^5.0.3
-      '@happy-dom/jest-environment': ^4.1.0
+      '@happy-dom/jest-environment': ^5.3.1
       '@types/benchmark': ^2.1.1
       benchmark: ^2.1.4
       esno: ^0.16.3
@@ -20,7 +20,7 @@ importers:
       '@actions/core': 1.8.2
       '@actions/exec': 1.1.1
       '@actions/github': 5.0.3
-      '@happy-dom/jest-environment': 4.1.0
+      '@happy-dom/jest-environment': 5.3.1
       '@types/benchmark': 2.1.1
       benchmark: 2.1.4
       esno: 0.16.3
@@ -50,7 +50,7 @@ importers:
       codemirror: ^5.65.5
       codemirror-theme-vars: ^0.1.1
       cypress: ^9.7.0
-      d3-graph-controller: ^2.2.40
+      d3-graph-controller: ^2.2.41
       flatted: ^3.2.5
       floating-vue: ^2.0.0-y.0
       picocolors: ^1.0.0
@@ -84,7 +84,7 @@ importers:
       codemirror: 5.65.5
       codemirror-theme-vars: 0.1.1
       cypress: 9.7.0
-      d3-graph-controller: 2.2.40
+      d3-graph-controller: 2.2.41
       flatted: 3.2.5
       floating-vue: 2.0.0-y.0_vue@3.2.37
       picocolors: 1.0.0
@@ -128,7 +128,7 @@ importers:
       '@types/jsdom': ^16.2.14
       '@types/micromatch': ^4.0.2
       '@types/natural-compare': ^1.4.1
-      '@types/node': ^17.0.35
+      '@types/node': '*'
       '@types/prompts': ^2.4.0
       '@types/sinonjs__fake-timers': ^8.1.2
       '@vitest/ui': workspace:*
@@ -152,6 +152,7 @@ importers:
       micromatch: ^4.0.5
       mlly: ^0.5.2
       natural-compare: ^1.4.0
+      p-limit: ^4.0.0
       pathe: ^0.2.0
       picocolors: ^1.0.0
       pkg-types: ^0.3.2
@@ -169,6 +170,7 @@ importers:
     dependencies:
       '@types/chai': 4.3.1
       '@types/chai-subset': 1.3.3
+      '@types/node': 17.0.35
       chai: 4.3.6
       debug: 4.3.4
       local-pkg: 0.4.1
@@ -182,7 +184,6 @@ importers:
       '@types/jsdom': 16.2.14
       '@types/micromatch': 4.0.2
       '@types/natural-compare': 1.4.1
-      '@types/node': 17.0.35
       '@types/prompts': 2.4.0
       '@types/sinonjs__fake-timers': 8.1.2
       '@vitest/ui': link:../ui
@@ -203,6 +204,7 @@ importers:
       micromatch: 4.0.5
       mlly: 0.5.2
       natural-compare: 1.4.0
+      p-limit: 4.0.0
       pathe: 0.2.0
       picocolors: 1.0.0
       pkg-types: 0.3.2
@@ -1823,13 +1825,13 @@ packages:
       '@floating-ui/core': 0.3.1
     dev: true
 
-  /@happy-dom/jest-environment/4.1.0:
-    resolution: {integrity: sha512-nIAsjD4b/8fk0bEliXgg4AdUrb94gNZ2urKRA3yJ3wj8WSJLSIrT9ZM7lvYEL+rEDOUAhewaYufPcV3RZU7gzQ==}
+  /@happy-dom/jest-environment/5.3.1:
+    resolution: {integrity: sha512-E6F2KO/4oZZEoZA1Kg8kz73j5OjU21nydf8qz1x5/hKHjPdn+un+6pJ3fUcJPhrUIT3Zehrgu4oukUqnrTA1mw==}
     dependencies:
       '@jest/environment': 27.5.1
       '@jest/fake-timers': 27.5.1
       '@jest/types': 27.5.1
-      happy-dom: 4.1.0
+      happy-dom: 5.3.1
       jest-mock: 27.5.1
       jest-util: 27.5.1
     transitivePeerDependencies:
@@ -1932,7 +1934,7 @@ packages:
     dependencies:
       '@jest/fake-timers': 27.5.1
       '@jest/types': 27.5.1
-      '@types/node': 17.0.25
+      '@types/node': 17.0.35
       jest-mock: 27.5.1
     dev: true
 
@@ -1942,7 +1944,7 @@ packages:
     dependencies:
       '@jest/types': 27.5.1
       '@sinonjs/fake-timers': 8.1.0
-      '@types/node': 17.0.25
+      '@types/node': 17.0.35
       jest-message-util: 27.5.1
       jest-mock: 27.5.1
       jest-util: 27.5.1
@@ -2055,7 +2057,7 @@ packages:
     dependencies:
       '@types/istanbul-lib-coverage': 2.0.4
       '@types/istanbul-reports': 3.0.1
-      '@types/node': 17.0.25
+      '@types/node': 17.0.35
       '@types/yargs': 16.0.4
       chalk: 4.1.2
     dev: true
@@ -2414,13 +2416,8 @@ packages:
     resolution: {integrity: sha512-q4jlIR71hUpWTnGhXWcakgkZeHa3CCjcQcnuzU8M891BAWA2jHiziiWEPEkdS5pFsz7H9HJiy8BrK7tBRNrY7A==}
     dev: true
 
-  /@types/node/17.0.25:
-    resolution: {integrity: sha512-wANk6fBrUwdpY4isjWrKTufkrXdu1D2YHCot2fD/DfWxF5sMrVSA+KN7ydckvaTCh0HiqX9IVl0L5/ZoXg5M7w==}
-    dev: true
-
   /@types/node/17.0.35:
     resolution: {integrity: sha512-vu1SrqBjbbZ3J6vwY17jBs8Sr/BKA+/a/WtjRG+whKg1iuLFOosq872EXS0eXWILdO36DHQQeku/ZcL6hz2fpg==}
-    dev: true
 
   /@types/node/17.0.7:
     resolution: {integrity: sha512-1QUk+WAUD4t8iR+Oj+UgI8oJa6yyxaB8a8pHaC8uqM6RrS1qbL7bf3Pwl5rHv0psm2CuDErgho6v5N+G+5fwtQ==}
@@ -2851,8 +2848,8 @@ packages:
       vue-demi: 0.12.1_vue@3.2.37
     dev: true
 
-  /@yeger/debounce/1.0.18:
-    resolution: {integrity: sha512-QwW6oR6g+5vo1VNUUdHOJrK5/Yr6j27DEvwzh9KzgIE7GB/vt9izLoPv/52h3a7AaQLYN8CP0pRhzbkr+M8LWw==}
+  /@yeger/debounce/1.0.19:
+    resolution: {integrity: sha512-ynzlNQIqKyMnAERNPyp1qez553+U51yYTvDQiOWwpj2Y0HCS9xlShWyEdNmnVcM4fIzhHcHYDxO6AlvcyH/faA==}
     dev: true
 
   /abab/2.0.5:
@@ -3690,10 +3687,10 @@ packages:
       d3-timer: 3.0.1
     dev: true
 
-  /d3-graph-controller/2.2.40:
-    resolution: {integrity: sha512-fwpgWnM4Xq6/2PHkFbO7vznjZ2EivnkTkDYMNFe3cUOdkFfTlxLYV9txB0AV6gq/I4u6zC9nHKLHzHjOaTuNVw==}
+  /d3-graph-controller/2.2.41:
+    resolution: {integrity: sha512-YdjOO8SZwJHi/mu1Ahy2a1liMvyA0EyzE6eLJYInYXtnVh/flGI06ZWXsJZA0QScq5pSQtFkCRRo5MFNkEohXA==}
     dependencies:
-      '@yeger/debounce': 1.0.18
+      '@yeger/debounce': 1.0.19
       d3-drag: 3.0.0
       d3-force: 3.0.0
       d3-selection: 3.0.0
@@ -3870,7 +3867,7 @@ packages:
     dev: true
 
   /delayed-stream/1.0.0:
-    resolution: {integrity: sha1-3zrhmayt+31ECqrgsp4icrJOxhk=}
+    resolution: {integrity: sha512-ZySD7Nf91aLB0RxL4KGrKHBXl7Eds1DAmEdcoVawXnLD7SDhpNgtuII2aAkg7a7QS41jxPSZ17p4VdGnMHk3MQ==}
     engines: {node: '>=0.4.0'}
     dev: true
 
@@ -4889,6 +4886,20 @@ packages:
       - encoding
     dev: true
 
+  /happy-dom/5.3.1:
+    resolution: {integrity: sha512-zVb0VUIK73lMZR4e9ntaEQSRTf8/Rrz9MlO2VQMOn68aZAC3qoMPS/81Rkfva4vMR+bKXDqkeHiw7HumvvBmag==}
+    dependencies:
+      css.escape: 1.5.1
+      he: 1.2.0
+      node-fetch: 2.6.7
+      sync-request: 6.1.0
+      webidl-conversions: 7.0.0
+      whatwg-encoding: 2.0.0
+      whatwg-mimetype: 3.0.0
+    transitivePeerDependencies:
+      - encoding
+    dev: true
+
   /has-bigints/1.0.1:
     resolution: {integrity: sha512-LSBS2LjbNBTf6287JEbEzvJgftkF5qFkmCo9hDRpAzKhUOlJ+hx8dd4USs00SgsUNwc4617J9ki5YtEClM2ffA==}
     dev: true
@@ -5613,7 +5624,7 @@ packages:
     engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
     dependencies:
       '@jest/types': 27.5.1
-      '@types/node': 17.0.25
+      '@types/node': 17.0.35
     dev: true
 
   /jest-pnp-resolver/1.2.2_jest-resolve@27.5.1:
@@ -5765,7 +5776,7 @@ packages:
     engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
     dependencies:
       '@jest/types': 27.5.1
-      '@types/node': 17.0.25
+      '@types/node': 17.0.35
       chalk: 4.1.2
       ci-info: 3.3.0
       graceful-fs: 4.2.9
@@ -7344,7 +7355,7 @@ packages:
     dev: true
 
   /typedarray/0.0.6:
-    resolution: {integrity: sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=}
+    resolution: {integrity: sha512-/aCDEGatGvZ2BIk+HmLf4ifCJFwvKFNb9/JeZPMulfgFracn9QFcAf5GO8B/mweUjSoblS5In0cWhqpfs/5PQA==}
     dev: true
 
   /typescript/4.7.3:
@@ -7549,7 +7560,7 @@ packages:
     dev: true
 
   /util-deprecate/1.0.2:
-    resolution: {integrity: sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=}
+    resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
     dev: true
 
   /uuid/8.3.2:
@@ -7702,7 +7713,7 @@ packages:
     dev: true
 
   /webidl-conversions/3.0.1:
-    resolution: {integrity: sha1-JFNCdeKnvGvnvIZhHMFq4KVlSHE=}
+    resolution: {integrity: sha512-2JAn3z8AR6rjK8Sm8orRC0h/bcl/DqL7tRPdGZ4I1CjdF+EaMLmYxBHyXuKL849eucPFhvBoxMsflfOb8kxaeQ==}
     dev: true
 
   /webidl-conversions/5.0.0:
@@ -7760,7 +7771,7 @@ packages:
     dev: true
 
   /whatwg-url/5.0.0:
-    resolution: {integrity: sha1-lmRU6HZUYuN2RNNib2dCzotwll0=}
+    resolution: {integrity: sha512-saE57nupxk6v3HY35+jzBwYa0rKSy0XR8JSxZPwgLr7ys0IBzhGviA1/TUGJLmSVqs8pb9AnvICXEuOHLprYTw==}
     dependencies:
       tr46: 0.0.3
       webidl-conversions: 3.0.1
